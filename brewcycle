@@ -1,0 +1,15 @@
+#! /bin/sh
+
+echo "Updating..."
+brew update
+
+echo "Upgrading..."
+brew upgrade
+echo "Up to grade."
+
+echo "Cleaning..."
+brew cleanup
+echo "Cleanliness up to spec."
+
+echo "Doctoring..."
+brew doctor
